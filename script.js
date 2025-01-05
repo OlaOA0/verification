@@ -78,13 +78,13 @@ $("#square").click(enlarge);
 
 function enlarge(){
   if(square.classList.contains("enlarged")){
-    $("#window").css("width", "40%");
+    $("#window").css("width", "100%");
     $("#title-bar-width").css('width', '100%');
     $("#content").css("width", "100%");
     $("#square").removeClass("enlarged");
   }
   else{
-    $("#window").css("width", "70%");
+    $("#window").css("width", "100%");
     $("#title-bar-width").css('width', '100%');
     $("#content").css("width", "100%");
     $("#square").addClass("enlarged");
